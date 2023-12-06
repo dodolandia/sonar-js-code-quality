@@ -1,8 +1,6 @@
-const names: Array<string> = [];
+import { addName } from "./controller";
 
-function addName(name: string, names: string[]) {
-    names.push(name);
-}
+const names: Array<string> = [];
 
 function main() {
     addName("John", names);
