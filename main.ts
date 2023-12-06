@@ -1,11 +1,12 @@
 const names: Array<string> = [];
 
-function addName(names: string[]) {
-    names.push('John');
+function addName(name: string, names: string[]) {
+    names.push(name);
 }
 
 function main() {
-    addName(names);
+    addName("John", names);
+    addName("Doe", names);
     console.log(names);
 }
 
